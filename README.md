@@ -34,24 +34,17 @@
 
 ## ⚙️ Solution 
 
-1️⃣ **Press the button** – Triggers the rolling process.  
-2️⃣ **Random number generation** – Produces a number between **1 and 6**.  
-3️⃣ **Logic circuit processes the output** – Ensures valid results.  
-4️⃣ **LEDs light up** – Displays the corresponding dice pattern.  
-5️⃣ **7-Segment display updates** – Shows the rolled number clearly.  
-
----
-
-## 🛠️ Circuit Design
-🔹 The circuit integrates the following components:  
-✔️ **Push Button** – Initiates the rolling.  
-✔️ **Random Number Generator** – Produces unpredictable values.  
-✔️ **Logic Gates** – Ensures correct output range (1-6).  
-✔️ **7-Segment Display** – Shows the dice value numerically.  
-
-### 🖼️ Circuit Diagram:
 ![Flowchart](Flowchart_1.png)
-![Inference Time](Inference Time.png)
+> Images are collected in group photos since it is not possible to capture each student's face individually.
+> MTCNN is used to detect and extract faces from the group photo.
+> Gaussian filters are applied to enhance image quality, improving recognition accuracy in low-resolution images.
+> The extracted and enhanced face images are stored in a database, along with their labels (student IDs).
+> Image pre-processing and Data augmentation techniques (e.g., rotation, flipping) are applied to the images to increase the dataset size and improve model generalization.
+
+![Inference Time](Inference_Time.png)
+> FaceNet generates embeddings for each face image. These embeddings are vector representations of the facial features, allowing for precise comparisons.
+> The embeddings and their corresponding labels are stored in a database for easy retrieval during inference.
+> At inference, the system loads embeddings, detects faces with MTCNN,  generates embeddings using FaceNet, compares them with stored embeddings, and annotates the image. It then generates an Excel sheet with the roll numbers of present students.
 
 ---
 
