@@ -50,12 +50,8 @@
 ✔️ **7-Segment Display** – Shows the dice value numerically.  
 
 ### 🖼️ Circuit Diagram:
-![Circuit Diagram](circuit_diagram.png)
-
----
-
-## 📊 Truth Table
-![Truth Table](truth_table.png)
+![Flowchart](Flowchart_1.png)
+![Inference Time](Inference Time.png)
 
 ---
 
