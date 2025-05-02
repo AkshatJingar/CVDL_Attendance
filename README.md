@@ -64,7 +64,6 @@
 > With only 23 labeled images, data augmentation (flipping, scaling, brightness) was applied to improve performance. Switching to MTCNN improved face detection, and FaceNet enhanced matching accuracy. 
 > After augmentation, correct predictions increased from 9 to 14, proving the effectiveness of data augmentation in boosting model performance for real-world attendance tracking.
 
-```
 ---
 
 ## 📞 Contact
