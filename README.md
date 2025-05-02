@@ -48,29 +48,24 @@
 
 ---
 
-## 💡 LED Logic Expressions
-Each LED is controlled using **Boolean expressions** derived from **Karnaugh Maps (K-maps)**. The K-map technique helps simplify the logic equations, ensuring minimal logic gate usage while maintaining accuracy in representing dice patterns.
+## 📊 Results
+
+![Without](Without_augmentation.png)
+> Without Augmentation : The model correctly predicted 9/23 faces, showing limited accuracy due to lack of variability in training data.
+
+![With](With_augmentation.png)
+> With Augmentation: After applying data augmentation techniques, the model's accuracy improved, correctly predicting 14/23 faces. 
 
 ---
 
-## 🎮 Applications
-✅ **Board Games** – Use as an electronic dice replacement.  
-✅ **Education** – Demonstrates logic gate applications.  
-✅ **Random Number Generation** – Ideal for other electronics projects requiring randomness.  
+## 📤 Conclusion 
+
+> The Face Attendance Recognition System, using MTCNN for detection and FaceNet for embeddings, faced challenges with limited data. 
+> With only 23 labeled images, data augmentation (flipping, scaling, brightness) was applied to improve performance. Switching to MTCNN improved face detection, and FaceNet enhanced matching accuracy. 
+> After augmentation, correct predictions increased from 9 to 14, proving the effectiveness of data augmentation in boosting model performance for real-world attendance tracking.
 
 ---
-
-## 📂 Repository Structure
-```bash
-📁 Digital-Dice/
- ┣ 📜 Digital Dice.circ
- ┣ 📜 README.md
- ┣ 📜 Report.pdf
- ┣ 📜 circuit_diagram.png
- ┣ 📜 truth_table.png
-
 ```
-
 ---
 
 ## 📞 Contact
