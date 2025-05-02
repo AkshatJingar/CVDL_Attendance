@@ -9,8 +9,6 @@
 
 ---
 
----
-
 ## ❓ Problem Statement
 > Traditional methods of attedance system can be prone to human error like missed names, incorrect entries or miscounts. Also, traditional systems are vulnerable to proxy attendance. Maintaining paper-based records requires physical storage also. This project eliminates this issue by providing AI-based solution for attedance system.
 
